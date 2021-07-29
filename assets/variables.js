@@ -7,13 +7,13 @@ const variables = {
     night: "Good Night",
   },
   quotes: [
-    { quote: "I love you caca ♥", author: "zen" },
-    { quote: "Aku sayang caca ♥", author: "zen" },
-    { quote: "wawa sayang caca ♥", author: "zen" },
-    { quote: "Love u caca ♥", author: "zen" },
+    { quote: "", author: "zen" },
+    { quote: "", author: "zen" },
+    { quote: "", author: "zen" },
+    { quote: "", author: "zen" },
   ],
-  nicknames: ["caca", "bucinku", "Sayang", "Babe", "Cintaku", "Cinta"],
-  generated: ["{greetings}, {nicknames}!"],
+  nicknames: ["caca ♥", "bucinku ♥", "Sayang ♥", "Babe ♥", "Cintaku ♥", "Cinta ♥"],
+  generated: ["{greetings}, {nicknames}"],
 };
 
 const particlesConfig = {
@@ -31,7 +31,7 @@ const particlesConfig = {
     shape: {
       type: "image",
       stroke: {
-        width: 2,
+        width: 20,
         color: "#000000",
       },
       polygon: {
@@ -39,8 +39,8 @@ const particlesConfig = {
       },
       image: {
         src: "./assets/heart.png",
-        width: 50,
-        height: 50,
+        width: 10,
+        height: 10,
       },
     },
     opacity: {
@@ -54,7 +54,7 @@ const particlesConfig = {
       },
     },
     size: {
-      value: 10,
+      value: 23,
       random: false,
       anim: {
         enable: false,
@@ -66,14 +66,14 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 80,
-      color: "#000",
+      color: "#fff",
       opacity: 0.4,
       width: 1,
     },
     move: {
       enable: true,
       speed: 3,
-      direction: "right",
+      direction: "center",
       random: true,
       straight: false,
       out_mode: "out",

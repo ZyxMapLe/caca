@@ -14,16 +14,25 @@ canvas {
   z-index: 2;
 }
 
+.mbww {
+  padding-top: 2px;
+}
+
 #greeting {
   font-family: "Fredoka One", cursive;
   font-size: 1.8rem;
   z-index: 2;
+  color: white
 }
 
 #quotes {
   font-family: "Raleway", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   z-index: 2;
+}
+
+.typed-text {
+  color: hotpink
 }
 
 .darkBG {
